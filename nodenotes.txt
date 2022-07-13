@@ -1,0 +1,9 @@
+// node notes 
+//text file
+right now i am learning about node js and its featurs
+// js file
+const fs=require('fs');
+fs.readFile('./test.txt','utf-8',(err,data)=>{
+    console.log(data)
+})
+console.log("hello")
